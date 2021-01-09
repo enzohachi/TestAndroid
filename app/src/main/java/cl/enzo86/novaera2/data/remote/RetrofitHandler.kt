@@ -18,7 +18,7 @@ object RetrofitHandler {
 
         return Retrofit.Builder()
             .baseUrl("https://my-json-server.typicode.com/Himuravidal/FakeAPIdata/")
-            .client(git client)
+            .client(client)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
 
