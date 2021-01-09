@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="ui.DetalleTelefonosFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivImagenItem"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tvTituloItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Titulo para el detalle"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvDescripcionDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/tvPrecioAntiguo"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        />
+    <TextView
+        android:id="@+id/tvPrecioNuevo"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDetalleCredito"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnEnviarCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar_correo" />
+
+
+</LinearLayout>
